@@ -1,11 +1,11 @@
-const {Airplane} = require('../models');
+const {Booking} = require('../models');
 const crudRepository = require('./crud-operations');
 
 
-class AirplaneRepository extends crudRepository{
+class BookingRepository extends crudRepository{
    
     constructor(){
-        super(Airplane);
+        super(Booking);
     }
     // const s = "adffg";
 }
@@ -19,4 +19,4 @@ class AirplaneRepository extends crudRepository{
 // we can write our custom operation function to 
 // perform some function on DB.
 
-module.exports = AirplaneRepository;
+module.exports = BookingRepository;
