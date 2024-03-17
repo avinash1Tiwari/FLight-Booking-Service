@@ -15,7 +15,7 @@
 //             console.log("inside controller")
 //             console.log(req.body)
 
-//             // const airplane = req.body.modelNumber + req.body.capacity;
+      // const airplane = req.body.modelNumber + req.body.capacity;
 //             const airplane = await AirplaneServices.createAirplaneA({
 //                 modelNumber : req.body.modelNumber,
 //                 capacity : req.body.capacity
