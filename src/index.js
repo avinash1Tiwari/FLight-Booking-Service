@@ -13,6 +13,8 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 
 app.use('/api', apiRoutes);
+app.use('/bookingService', apiRoutes);
+
 // Logger.info("succesfully started the server ",{})
 
 app.listen(ServerConfig.PORT, () => {
